@@ -28,28 +28,35 @@ header{
     
 }
 h2{
-    font-size: 60;
+    font-size: 25px;
     color: #000000;
     font-weight: bold;
 }
+h3{
+    font-size: 20px;
+}
+.articleSection{
+    display: flex;
+    padding: 15px;
+    height: 100px;
+    width: 800px;
+}
 
-.container{
-    display: grid;
-    grid-template-columns: 25%; 25%; 50%;
-    width: 1200px;
-    margin::content;
+}
+.container {
     
-}
-
-.container img{
-    object-fit: contain;
-    width: 600px;
+    width: 1920px;
+    padding: 50px;
     display: grid;
-    justify-content: center;
+    background:pink;
 }
 
-.article2{
-    float: left;
+article img{
+    width: 400px;
+    display: inline-block;
 }
-    
+.articleText{
+    display: inline-block;
+}
+
 
