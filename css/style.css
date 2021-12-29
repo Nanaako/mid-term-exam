@@ -1,0 +1,55 @@
+.active{
+    text-decoration: underline;
+    color: #A00000;
+}
+li a{
+    color: black;
+}
+header{
+    width: 1920px;
+    padding: 50px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+}
+.nav-li{
+    justify-content: space-between;
+    margin-right: 100px;
+    vertical-align: 170%;
+}
+
+.cover{
+    object-fit: cover;
+    width: 60%;
+    
+}
+h2{
+    font-size: 60;
+    color: #000000;
+    font-weight: bold;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25%; 25%; 50%;
+    width: 1200px;
+    margin::content;
+    
+}
+
+.container img{
+    object-fit: contain;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+}
+
+.article2{
+    float: left;
+}
+    
+
